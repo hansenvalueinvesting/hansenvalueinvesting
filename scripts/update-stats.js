@@ -1,26 +1,9 @@
 // scripts/update-stats.js
-// Reads visit counts from Firebase Realtime Database (REST API — no SDK needed)
-// and rewrites the stats block in README.md.
-//
-// Firebase Realtime DB exposes a simple REST API:
-//   GET https://<project>.firebaseio.com/<path>.json
-// No auth required since .read is true on /visits.
-//
-// Setup:
-//   1. Create a Firebase project at https://console.firebase.google.com
-//   2. Add a Realtime Database (start in test mode, then apply the rules in the snippet)
-//   3. Add one GitHub repo secret:
-//        FIREBASE_DB_URL  — your database URL, e.g. https://my-project-default-rtdb.firebaseio.com
-//   4. The script will read /visits.json which returns all four counters at once
+const fs = require('fs');
+const path = require('path');
 
-import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
-
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-
-const DB_URL     = process.env.FIREBASE_DB_URL?.replace(/\/$/, ''); // strip trailing slash
-const README     = path.join(__dirname, '..', 'README.md');
+const DB_URL = (process.env.FIREBASE_DB_URL || '').replace(/\/$/, '');
+const README = path.join(__dirname, '..', 'README.md');
 const BLOCK_START = '<!-- STATS_START -->';
 const BLOCK_END   = '<!-- STATS_END -->';
 
@@ -43,12 +26,11 @@ async function main() {
   }
 
   const visits = await res.json();
-  // visits = { "focus-timer": N, "newsfeed": N, "plant-bug-map": N, "total": N }
 
-  const focus   = visits?.['focus-timer']   ?? 0;
-  const news    = visits?.['newsfeed']      ?? 0;
-  const plants  = visits?.['plant-bug-map'] ?? 0;
-  const total   = visits?.['total']         ?? (focus + news + plants);
+  const focus  = visits?.['focus-timer']   ?? 0;
+  const news   = visits?.['newsfeed']      ?? 0;
+  const plants = visits?.['plant-bug-map'] ?? 0;
+  const total  = visits?.['total']         ?? (focus + news + plants);
 
   console.log(`  focus-timer:   ${fmt(focus)}`);
   console.log(`  newsfeed:      ${fmt(news)}`);
