@@ -4,7 +4,7 @@ building.
 
 ---
 
-## completed projects
+## projects
 
 <!-- TOTAL_START -->17 total uses · updated 2026-03-22<!-- TOTAL_END -->
 
