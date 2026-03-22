@@ -12,7 +12,7 @@ const BLOCK_END   = '<!-- STATS_END -->';
 const APPS = [
   { key: 'focus-timer',   label: 'focus timer',   color: '#1D9E75' },
   { key: 'newsfeed',      label: 'newsfeed',       color: '#BA7517' },
-  { key: 'plant-bug-map', label: 'plant-bug map',  color: '#993556' },
+  { key: 'plant-bug-interactive-map', label: 'plant-bug-interactive-map',  color: '#993556' },
 ];
 // ─────────────────────────────────────────────────────────────────────────────
 
