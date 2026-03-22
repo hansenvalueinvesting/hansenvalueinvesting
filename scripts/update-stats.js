@@ -48,7 +48,7 @@ async function main() {
 | newsfeed | ${fmt(news)} |
 | plant-bug map | ${fmt(plants)} |
 
-*updated ${date} · self-hosted via firebase · raw opens, not deduplicated*
+*updated ${date}
 ${BLOCK_END}`;
 
   const readme = fs.readFileSync(README, 'utf8');
