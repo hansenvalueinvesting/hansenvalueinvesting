@@ -15,6 +15,4 @@ building.
 
 <!-- STATS_START -->
 ![impact stats](stats.png)
-
-*updated 2026-03-22 · firebase · raw opens*
 <!-- STATS_END -->
