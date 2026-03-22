@@ -5,14 +5,13 @@ building.
 ---
 
 ## webapps
-- focus timer[↗](https://hansenvalueinvesting.github.io/focus-timer/) |
-- newsfeed [↗](https://hansenvalueinvesting.github.io/newsfeed/) |
-- plant-bug-interactive-map [↗](https://hansenvalueinvesting.github.io/plant-bug-interactive-map/) |
-
----
-
-## webapp usage
 
 <!-- STATS_START -->
-![impact stats](stats.png)
+- focus timer [↗](https://hansenvalueinvesting.github.io/focus-timer/) | **— uses**
+- newsfeed [↗](https://hansenvalueinvesting.github.io/newsfeed/) | **— uses**
+- plant-bug-interactive-map [↗](https://hansenvalueinvesting.github.io/plant-bug-interactive-map/) | **— uses**
+
+**— total uses** · *updated —*
 <!-- STATS_END -->
+
+---
