@@ -14,10 +14,12 @@ building.
 ## webapp usage
 
 <!-- STATS_START -->
-| app | uses (all time) |
+| app | opens (all time) |
 |-----|-----------------|
-| **all apps** | — |
-| focus timer | — |
-| newsfeed | — |
-| plant-bug map | — |
+| **all apps** | 4 |
+| focus timer | 3 |
+| newsfeed | 1 |
+| plant-bug map | 0 |
+
+*updated 2026-03-22 · self-hosted via firebase · raw opens, not deduplicated*
 <!-- STATS_END -->
