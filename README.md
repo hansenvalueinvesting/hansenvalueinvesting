@@ -21,5 +21,5 @@ building.
 | newsfeed | 1 |
 | plant-bug map | 0 |
 
-*updated 2026-03-22 · self-hosted via firebase · raw opens, not deduplicated*
+*updated 2026-03-22
 <!-- STATS_END -->
