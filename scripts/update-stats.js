@@ -84,7 +84,7 @@ async function main() {
 `${BLOCK_START}
 ![impact stats](stats.svg)
 
-*updated ${date} · firebase · raw opens*
+*updated ${date} ${time}*
 ${BLOCK_END}`;
 
   const readme = fs.readFileSync(README, 'utf8');
