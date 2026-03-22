@@ -14,12 +14,7 @@ building.
 ## webapp usage
 
 <!-- STATS_START -->
-| app | opens (all time) |
-|-----|-----------------|
-| **all apps** | 6 |
-| focus timer | 3 |
-| newsfeed | 2 |
-| plant-bug map | 0 |
+![impact stats](stats.svg)
 
-*updated 2026-03-22
+*updated 2026-03-22 · firebase · raw opens*
 <!-- STATS_END -->
