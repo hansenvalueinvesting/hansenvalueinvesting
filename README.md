@@ -16,9 +16,9 @@ building.
 <!-- STATS_START -->
 | app | opens (all time) |
 |-----|-----------------|
-| **all apps** | 4 |
+| **all apps** | 6 |
 | focus timer | 3 |
-| newsfeed | 1 |
+| newsfeed | 2 |
 | plant-bug map | 0 |
 
 *updated 2026-03-22
