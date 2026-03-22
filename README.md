@@ -12,5 +12,7 @@ building.
 - 📡 newsfeed [↗](https://hansenvalueinvesting.github.io/newsfeed/) | live 24hr news aggregator. | <!-- USES:newsfeed -->23 uses<!-- /USES:newsfeed -->
 - 🐞 plant-bug-interactive-map [↗](https://hansenvalueinvesting.github.io/plant-bug-interactive-map/) | arthropod × hostplant relationship visualizer for Earthwise Aware. | <!-- USES:plant-bug-interactive-map -->7 uses<!-- /USES:plant-bug-interactive-map -->
 
+public usage counts update every ~30-60 min
+
 ---
 
