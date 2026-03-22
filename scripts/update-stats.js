@@ -80,8 +80,6 @@ async function main() {
   const newBlock =
 `${BLOCK_START}
 ![impact stats](stats.png)
-
-*updated ${date} · firebase*
 ${BLOCK_END}`;
 
   const readme = fs.readFileSync(README, 'utf8');
