@@ -1,4 +1,3 @@
-// scripts/update-stats.js
 const fs = require('fs');
 const path = require('path');
 
@@ -10,9 +9,9 @@ const BLOCK_END   = '<!-- STATS_END -->';
 
 // ── Add new apps here as you build them ──────────────────────────────────────
 const APPS = [
-  { key: 'focus-timer',   label: 'focus timer',   color: '#1D9E75' },
-  { key: 'newsfeed',      label: 'newsfeed',       color: '#BA7517' },
-  { key: 'plant-bug-interactive-map', label: 'plant-bug-interactive-map',  color: '#993556' },
+  { key: 'focus-timer',              label: 'focus timer',   color: '#1D9E75' },
+  { key: 'newsfeed',                 label: 'newsfeed',      color: '#BA7517' },
+  { key: 'plant-bug-interactive-map',label: 'plant-bug map', color: '#993556' },
 ];
 // ─────────────────────────────────────────────────────────────────────────────
 
@@ -29,9 +28,8 @@ function generateSVG(apps, total) {
   const TRACK_W = W - LABEL_W - COUNT_W - 16;
   const TRACK_X = LABEL_W;
   const TRACK_H = 6;
-  const PADDING_TOP = 48; // space for total line
+  const PADDING_TOP = 48;
   const SVG_H = PADDING_TOP + apps.length * (ROW_H + ROW_GAP);
-
   const maxVal = Math.max(...apps.map(a => a.count), 1);
 
   let rows = '';
@@ -39,7 +37,6 @@ function generateSVG(apps, total) {
     const y = PADDING_TOP + i * (ROW_H + ROW_GAP);
     const fillW = Math.max((app.count / maxVal) * TRACK_W, app.count > 0 ? 4 : 0);
     const midY = y + ROW_H / 2;
-
     rows += `
   <text x="0" y="${midY + 4}" font-family="monospace" font-size="11" fill="#888">${app.label}</text>
   <rect x="${TRACK_X}" y="${midY - TRACK_H / 2}" width="${TRACK_W}" height="${TRACK_H}" rx="3" fill="#1e2530"/>
@@ -64,27 +61,26 @@ async function main() {
   if (!res.ok) { console.error(`Firebase error: HTTP ${res.status}`); process.exit(1); }
 
   const visits = await res.json() || {};
-  let total = 0;
+  let sum = 0;
 
   const appsWithCounts = APPS.map(app => {
     const count = visits[app.key] ?? 0;
-    total += count;
+    sum += count;
     console.log(`  ${app.label}: ${fmt(count)}`);
     return { ...app, count };
   });
 
-  // Use stored total if available, otherwise sum
-  const storedTotal = visits['total'] ?? total;
+  const total = visits['total'] ?? sum;
 
-  fs.writeFileSync(SVG_PATH, generateSVG(appsWithCounts, storedTotal), 'utf8');
-  console.log(`✓ stats.svg written`);
+  fs.writeFileSync(SVG_PATH, generateSVG(appsWithCounts, total), 'utf8');
+  console.log('✓ stats.svg written');
 
   const date = new Date().toISOString().slice(0, 10);
   const newBlock =
 `${BLOCK_START}
 ![impact stats](stats.svg)
 
-*updated ${date} ${time}*
+*updated ${date} · firebase · raw opens*
 ${BLOCK_END}`;
 
   const readme = fs.readFileSync(README, 'utf8');
@@ -93,7 +89,7 @@ ${BLOCK_END}`;
   if (s === -1 || e < BLOCK_END.length) { console.error('Stats markers not found in README.md'); process.exit(1); }
 
   fs.writeFileSync(README, readme.slice(0, s) + newBlock + readme.slice(e), 'utf8');
-  console.log(`✓ README.md updated (${date}) — ${fmt(storedTotal)} total opens`);
+  console.log(`✓ README.md updated (${date}) — ${fmt(total)} total opens`);
 }
 
 main().catch(err => { console.error(err); process.exit(1); });
