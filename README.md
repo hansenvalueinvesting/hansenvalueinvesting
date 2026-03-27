@@ -6,10 +6,10 @@ building.
 
 ## projects
 
-📊 <!-- TOTAL_START -->2,691 total uses · updated 2026-03-27<!-- TOTAL_END -->
+📊 <!-- TOTAL_START -->2,716 total uses · updated 2026-03-27<!-- TOTAL_END -->
 
-- ⏱️ focus timer [↗](https://hansenvalueinvesting.github.io/focus-timer/) | session-based focus tracker with global leaderboard. | 📊 <!-- USES:focus-timer -->100 uses<!-- /USES:focus-timer -->
-- 📡 newsfeed [↗](https://hansenvalueinvesting.github.io/newsfeed/) | live 24hr news aggregator. | 📊 <!-- USES:newsfeed -->2,541 uses<!-- /USES:newsfeed -->
+- ⏱️ focus timer [↗](https://hansenvalueinvesting.github.io/focus-timer/) | session-based focus tracker with global leaderboard. | 📊 <!-- USES:focus-timer -->101 uses<!-- /USES:focus-timer -->
+- 📡 newsfeed [↗](https://hansenvalueinvesting.github.io/newsfeed/) | live 24hr news aggregator. | 📊 <!-- USES:newsfeed -->2,565 uses<!-- /USES:newsfeed -->
 - 🐞 plant-bug-interactive-map [↗](https://hansenvalueinvesting.github.io/plant-bug-interactive-map/) | arthropod × hostplant relationship visualizer for Earthwise Aware. | 📊 <!-- USES:plant-bug-interactive-map -->51 uses<!-- /USES:plant-bug-interactive-map -->
 
 public usage counts (📊) automatically update periodically throughout the day. 
