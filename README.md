@@ -4,7 +4,7 @@ solutions architect.
 
 ---
 
-## projects
+## public projects
 
 📊 <!-- TOTAL_START -->19,281 total uses · updated 2026-04-23<!-- TOTAL_END -->
 
