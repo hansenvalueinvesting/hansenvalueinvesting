@@ -32,7 +32,7 @@ async function main() {
     const s = readme.indexOf(open);
     const e = readme.indexOf(close);
     if (s === -1 || e === -1) { console.warn(`  warning: markers not found for ${app.key}`); continue; }
-    readme = readme.slice(0, s + open.length) + `${fmt(count)} uses` + readme.slice(e);
+    readme = readme.slice(0, s + open.length) + `${fmt(count)} interactions` + readme.slice(e);
   }
 
   const total = visits['total'] ?? sum;
@@ -43,12 +43,12 @@ async function main() {
   const te = readme.indexOf('<!-- TOTAL_END -->');
   if (ts !== -1 && te !== -1) {
     readme = readme.slice(0, ts + '<!-- TOTAL_START -->'.length)
-      + `${fmt(total)} total uses · updated ${date}`
+      + `${fmt(total)} total interactions · updated ${date}`
       + readme.slice(te);
   }
 
   fs.writeFileSync(README, readme, 'utf8');
-  console.log(`✓ README.md updated — ${fmt(total)} total uses`);
+  console.log(`✓ README.md updated — ${fmt(total)} total interactions`);
 }
 
 main().catch(err => { console.error(err); process.exit(1); });
