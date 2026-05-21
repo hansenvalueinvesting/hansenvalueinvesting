@@ -21,7 +21,7 @@ solutions architect.
 - 📈 qqq-hmm [↗](https://hansenvalueinvesting.github.io/qqq-hmm/) | QQQ hidden markov regime model.
 - 📈 time-series-momentum [↗](https://hansenvalueinvesting.github.io/time-series-momentum/) | time series momentum model.
 
-public usage counts (📊) automatically update periodically throughout the day. 
+once added for individual projects, public usage counts (📊) automatically update to track universal usage. 
 
 ---
 
