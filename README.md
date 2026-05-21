@@ -10,6 +10,7 @@ solutions architect.
 
 **general**
 - ⏱️ focus timer [↗](https://hansenvalueinvesting.github.io/focus-timer/) | session-based focus tracker with stats. | 📊 <!-- USES:focus-timer -->195 interactions<!-- /USES:focus-timer -->
+- 🍜 morsu [↗](https://hansenvalueinvesting.github.io/morsu/) | food recording app. keep track of your favorite dishes and restaurants. 
 
 **custom-made**
 - 🐞 plant-bug-interactive-map [↗](https://hansenvalueinvesting.github.io/plant-bug-interactive-map/) | arthropod × hostplant relationship visualizer. built for [Earthwise Aware](https://www.earthwiseaware.org/). | 📊 <!-- USES:plant-bug-interactive-map -->162 interactions<!-- /USES:plant-bug-interactive-map -->
