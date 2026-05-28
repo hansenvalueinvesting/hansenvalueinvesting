@@ -6,7 +6,7 @@ solutions architect.
 
 ## public projects
 
-📊 <!-- TOTAL_START -->40,252 total interactions · updated 2026-05-28<!-- TOTAL_END -->
+📊 <!-- TOTAL_START -->40,282 total interactions · updated 2026-05-28<!-- TOTAL_END -->
 (across all tracked projects)
 
 **general**
@@ -14,10 +14,10 @@ solutions architect.
 - 🍜 morsu [↗](https://hansenvalueinvesting.github.io/morsu/) | food recording app. keep track of your favorite dishes and restaurants. 
 
 **custom-made**
-- 🐞 plant-bug-interactive-map [↗](https://hansenvalueinvesting.github.io/plant-bug-interactive-map/) | arthropod × hostplant relationship visualizer. built for [Earthwise Aware](https://www.earthwiseaware.org/). | 📊 <!-- USES:plant-bug-interactive-map -->166 interactions<!-- /USES:plant-bug-interactive-map -->
+- 🐞 plant-bug-interactive-map [↗](https://hansenvalueinvesting.github.io/plant-bug-interactive-map/) | arthropod × hostplant relationship visualizer. built for [Earthwise Aware](https://www.earthwiseaware.org/). | 📊 <!-- USES:plant-bug-interactive-map -->170 interactions<!-- /USES:plant-bug-interactive-map -->
 
 **economics + finance**
-- 📡 newsfeed [↗](https://hansenvalueinvesting.github.io/newsfeed/) | live 24hr news aggregator. | 📊 <!-- USES:newsfeed -->39,883 interactions<!-- /USES:newsfeed -->
+- 📡 newsfeed [↗](https://hansenvalueinvesting.github.io/newsfeed/) | live 24hr news aggregator. | 📊 <!-- USES:newsfeed -->39,909 interactions<!-- /USES:newsfeed -->
 - 📈 charting [↗](https://hansenvalueinvesting.github.io/charting/) | financial charting tool.
 - 📈 qqq-hmm [↗](https://hansenvalueinvesting.github.io/qqq-hmm/) | QQQ hidden markov regime model.
 - 📈 time-series-momentum [↗](https://hansenvalueinvesting.github.io/time-series-momentum/) | time series momentum model.
