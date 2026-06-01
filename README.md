@@ -21,7 +21,10 @@ solutions architect.
 - 📈 charting [↗](https://hansenvalueinvesting.github.io/charting/) | financial charting tool.
 - 📈 qqq-hmm [↗](https://hansenvalueinvesting.github.io/qqq-hmm/) | QQQ hidden markov regime model.
 - 📈 time-series-momentum [↗](https://hansenvalueinvesting.github.io/time-series-momentum/) | time series momentum model.
-- 📈 post-earnings-announcement-drift [↗](https://hansenvalueinvesting.github.io/post-earnings-announcement-drift/) | post earnings announcement drift model. 
+- 📈 post-earnings-announcement-drift [↗](https://hansenvalueinvesting.github.io/post-earnings-announcement-drift/) | post earnings announcement drift model.
+
+**others**
+- 📖 hd4eng-2026-spring-exam-vocab [↗](https://hansenvalueinvesting.github.io/hd4eng-2026-spring-exam-vocab/) | HD 4th form english spring exam vocab flashcards. 
 
 once added for individual projects, public usage counts (📊) automatically update to track universal usage. 
 
