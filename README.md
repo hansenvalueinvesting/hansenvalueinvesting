@@ -24,6 +24,7 @@ solutions architect.
 - 📈 post-earnings-announcement-drift [↗](https://hansenvalueinvesting.github.io/post-earnings-announcement-drift/) | post earnings announcement drift model.
 
 **others**
+- 📖 latin-3-2026-spring-exam-vocab [↗](https://hansenvalueinvesting.github.io/latin-3-2026-spring-exam-vocab/) | latin 3 spring exam vocab flashcards.
 - 📖 hd4eng-2026-spring-exam-vocab [↗](https://hansenvalueinvesting.github.io/hd4eng-2026-spring-exam-vocab/) | HD 4th form english spring exam vocab flashcards. 
 
 once added for individual projects, public usage counts (📊) automatically update to track universal usage. 
