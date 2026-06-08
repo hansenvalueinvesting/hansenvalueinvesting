@@ -22,6 +22,7 @@ solutions architect.
 - 📈 qqq-hmm [↗](https://hansenvalueinvesting.github.io/qqq-hmm/) | QQQ hidden markov regime model.
 - 📈 time-series-momentum [↗](https://hansenvalueinvesting.github.io/time-series-momentum/) | time series momentum model.
 - 📈 post-earnings-announcement-drift [↗](https://hansenvalueinvesting.github.io/post-earnings-announcement-drift/) | post earnings announcement drift model.
+- 📈 hades [↗](https://github.com/hansenvalueinvesting/hades) | kronos based financial market tokenizer + inference model.
 
 **others**
 - 📖 latin-3-2026-spring-exam-vocab [↗](https://hansenvalueinvesting.github.io/latin-3-2026-spring-exam-vocab/) | latin 3 spring exam vocab flashcards.
