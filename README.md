@@ -14,6 +14,7 @@ building things.
 
 **custom-made**
 - 🐞 plant-bug-interactive-map [↗](https://hansenvalueinvesting.github.io/plant-bug-interactive-map/) | arthropod × hostplant relationship visualizer. built for [Earthwise Aware](https://www.earthwiseaware.org/). | 📊 <!-- USES:plant-bug-interactive-map -->214 interactions<!-- /USES:plant-bug-interactive-map -->
+- 🏸 brightmind [↗](https://hansenvalueinvesting.github.io/brightmind) | tracker for squash players + coaches. log  daily training, mental state, and recovery. 
 
 **economics + finance**
 - 📡 newsfeed [↗](https://hansenvalueinvesting.github.io/newsfeed/) | live 24hr news aggregator. | 📊 <!-- USES:newsfeed -->47,063 interactions<!-- /USES:newsfeed -->
