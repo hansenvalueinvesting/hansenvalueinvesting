@@ -6,7 +6,7 @@ building things.
 
 ## public projects
 
-📊 <!-- TOTAL_START -->47,607 total interactions · updated 2026-06-11<!-- TOTAL_END -->
+📊 <!-- TOTAL_START -->47,729 total interactions · updated 2026-06-11<!-- TOTAL_END -->
 (across all tracked projects)
 
 **general**
@@ -17,7 +17,7 @@ building things.
 - 🏸 brightmind [↗](https://hansenvalueinvesting.github.io/brightmind) | tracker for squash players + coaches. log  daily training, mental state, and recovery. 
 
 **economics + finance**
-- 📡 newsfeed [↗](https://hansenvalueinvesting.github.io/newsfeed/) | live 24hr news aggregator. | 📊 <!-- USES:newsfeed -->47,172 interactions<!-- /USES:newsfeed -->
+- 📡 newsfeed [↗](https://hansenvalueinvesting.github.io/newsfeed/) | live 24hr news aggregator. | 📊 <!-- USES:newsfeed -->47,294 interactions<!-- /USES:newsfeed -->
 - 📈 charting [↗](https://hansenvalueinvesting.github.io/charting/) | financial charting tool.
 - 📈 qqq-hmm [↗](https://hansenvalueinvesting.github.io/qqq-hmm/) | QQQ hidden markov regime model.
 - 📈 time-series-momentum [↗](https://hansenvalueinvesting.github.io/time-series-momentum/) | time series momentum model.
