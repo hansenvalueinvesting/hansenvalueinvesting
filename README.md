@@ -7,7 +7,7 @@ building things.
 ## public projects
 
 📊 <!-- TOTAL_START -->48,886 total interactions · updated 2026-06-12<!-- TOTAL_END -->
-(across all tracked projects)
+(across tracked projects)
 
 **general**
 - ⏱️ focus timer [↗](https://hansenvalueinvesting.github.io/focus-timer/) | session-based focus tracker with stats. | 📊 <!-- USES:focus-timer -->224 interactions<!-- /USES:focus-timer --> 
@@ -27,7 +27,7 @@ building things.
 - 📖 latin-3-2026-spring-exam-vocab [↗](https://hansenvalueinvesting.github.io/latin-3-2026-spring-exam-vocab/) | latin 3 spring exam vocab flashcards.
 - 📖 hd4eng-2026-spring-exam-vocab [↗](https://hansenvalueinvesting.github.io/hd4eng-2026-spring-exam-vocab/) | HD 4th form english spring exam vocab flashcards. 
 
-once added for individual projects, public usage counts (📊) automatically update to track universal usage. 
+once added for individual projects, public usage counts (📊) automatically update to track universal usage. note that most projects are untracked. 
 
 ---
 
