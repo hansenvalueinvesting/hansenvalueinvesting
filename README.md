@@ -23,7 +23,7 @@ building things.
 **custom builds**
 - 🐞 plant-bug-interactive-map [↗](https://hansenvalueinvesting.github.io/plant-bug-interactive-map/) | arthropod × hostplant relationship visualizer. built for [Earthwise Aware](https://www.earthwiseaware.org/). | 📊 <!-- USES:plant-bug-interactive-map -->215 interactions<!-- /USES:plant-bug-interactive-map -->
 - 🏸 brightmind [↗](https://hansenvalueinvesting.github.io/brightmind) | tracker for squash players + coaches. log  daily training, mental state, and recovery.
-- 🐝 buzzmap [↗](https://hansenvalueinvesting.github.io/buzzmao) | pollinator mapping. 
+- 🐝 buzzmap [↗](https://hansenvalueinvesting.github.io/buzzmap) | pollinator mapping. 
 - 📖 latin-3-2026-spring-exam-vocab [↗](https://hansenvalueinvesting.github.io/latin-3-2026-spring-exam-vocab/) | latin 3 spring exam vocab flashcards.
 - 📖 hd4eng-2026-spring-exam-vocab [↗](https://hansenvalueinvesting.github.io/hd4eng-2026-spring-exam-vocab/) | HD 4th form english spring exam vocab flashcards. 
 
