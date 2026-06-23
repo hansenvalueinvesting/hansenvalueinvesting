@@ -6,14 +6,14 @@ building things.
 
 ## public projects
 
-📊 <!-- TOTAL_START -->54,796 total interactions · updated 2026-06-23<!-- TOTAL_END -->
+📊 <!-- TOTAL_START -->54,902 total interactions · updated 2026-06-23<!-- TOTAL_END -->
 (across tracked projects)
 
 **general**
 - ⏱️ focus timer [↗](https://hansenvalueinvesting.github.io/focus-timer/) | session-based focus tracker with stats. | 📊 <!-- USES:focus-timer -->224 interactions<!-- /USES:focus-timer --> 
 
 **economics + finance**
-- 📡 newsfeed [↗](https://hansenvalueinvesting.github.io/newsfeed/) | live 24hr news aggregator. | 📊 <!-- USES:newsfeed -->54,329 interactions<!-- /USES:newsfeed -->
+- 📡 newsfeed [↗](https://hansenvalueinvesting.github.io/newsfeed/) | live 24hr news aggregator. | 📊 <!-- USES:newsfeed -->54,435 interactions<!-- /USES:newsfeed -->
 - 📈 charting [↗](https://hansenvalueinvesting.github.io/charting/) | financial charting tool.
 - 📈 qqq-hmm [↗](https://hansenvalueinvesting.github.io/qqq-hmm/) | QQQ hidden markov regime model.
 - 📈 time-series-momentum [↗](https://hansenvalueinvesting.github.io/time-series-momentum/) | time series momentum model.
