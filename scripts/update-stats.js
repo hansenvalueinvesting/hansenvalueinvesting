@@ -2,7 +2,7 @@ const fs   = require('fs');
 const path = require('path');
 
 const DB_URL = (process.env.FIREBASE_DB_URL || '').replace(/\/$/, '');
-const README = path.join(__dirname, '..', 'README.md');
+const SITE = path.join(__dirname, '..', 'index.html');
 
 const APPS = [
   { key: 'focus-timer' },
@@ -21,7 +21,7 @@ async function main() {
 
   const visits = await res.json() || {};
   let sum = 0;
-  let readme = fs.readFileSync(README, 'utf8');
+  let html = fs.readFileSync(SITE, 'utf8');
 
   for (const app of APPS) {
     const count = visits[app.key] ?? 0;
@@ -29,26 +29,26 @@ async function main() {
     console.log(`  ${app.key}: ${fmt(count)}`);
     const open  = `<!-- USES:${app.key} -->`;
     const close = `<!-- /USES:${app.key} -->`;
-    const s = readme.indexOf(open);
-    const e = readme.indexOf(close);
+    const s = html.indexOf(open);
+    const e = html.indexOf(close);
     if (s === -1 || e === -1) { console.warn(`  warning: markers not found for ${app.key}`); continue; }
-    readme = readme.slice(0, s + open.length) + `${fmt(count)} interactions` + readme.slice(e);
+    html = html.slice(0, s + open.length) + `${fmt(count)} interactions` + html.slice(e);
   }
 
   const total = visits['total'] ?? sum;
   const date  = new Date().toISOString().slice(0, 10);
 
   // Update total
-  const ts = readme.indexOf('<!-- TOTAL_START -->');
-  const te = readme.indexOf('<!-- TOTAL_END -->');
+  const ts = html.indexOf('<!-- TOTAL_START -->');
+  const te = html.indexOf('<!-- TOTAL_END -->');
   if (ts !== -1 && te !== -1) {
-    readme = readme.slice(0, ts + '<!-- TOTAL_START -->'.length)
+    html = html.slice(0, ts + '<!-- TOTAL_START -->'.length)
       + `${fmt(total)} total interactions · updated ${date}`
-      + readme.slice(te);
+      + html.slice(te);
   }
 
-  fs.writeFileSync(README, readme, 'utf8');
-  console.log(`✓ README.md updated — ${fmt(total)} total interactions`);
+  fs.writeFileSync(SITE, html, 'utf8');
+  console.log(`✓ index.html updated — ${fmt(total)} total interactions`);
 }
 
 main().catch(err => { console.error(err); process.exit(1); });
