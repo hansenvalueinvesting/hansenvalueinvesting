@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>hansen zheng — projects</title>
+<meta name="description" content="Personal project portfolio of Hansen Zheng — finance & markets tools, data visualizations, and apps." />
+<meta property="og:title" content="hansen zheng — projects" />
+<meta property="og:description" content="Personal project portfolio — finance & markets, tools, data visualizations." />
+<meta property="og:type" content="website" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9A%A1%3C/text%3E%3C/svg%3E" />
+<style>
+  :root {
+    --bg: #0b0d10;
+    --bg-card: #14181d;
+    --bg-card-hover: #1a1f26;
+    --border: #232a33;
+    --text: #e7ecf2;
+    --text-dim: #9aa6b2;
+    --text-faint: #6b7682;
+    --accent: #5ec2a8;
+    --accent-soft: rgba(94, 194, 168, 0.12);
+    --mono: ui-monospace, "SF Mono", "JetBrains Mono", "Fira Code", Menlo, monospace;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    padding: 0 20px;
+  }
+  .wrap { max-width: 920px; margin: 0 auto; padding: 72px 0 96px; }
+
+  /* Header */
+  header { margin-bottom: 56px; }
+  h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 10px;
+  }
+  .tagline { color: var(--text-dim); font-size: 1.05rem; }
+  .meta-row {
+    margin-top: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px 18px;
+    font-family: var(--mono);
+    font-size: 0.82rem;
+    color: var(--text-faint);
+  }
+  .total-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    background: var(--accent-soft);
+    color: var(--accent);
+    border: 1px solid rgba(94, 194, 168, 0.25);
+    border-radius: 999px;
+    padding: 5px 13px;
+    font-family: var(--mono);
+    font-size: 0.82rem;
+  }
+  .meta-row a { color: var(--text-faint); text-decoration: none; border-bottom: 1px solid var(--border); transition: color .15s, border-color .15s; }
+  .meta-row a:hover { color: var(--accent); border-color: var(--accent); }
+
+  /* Sections */
+  section { margin-top: 52px; }
+  .section-title {
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--text-faint);
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-title::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+
+  /* Grid + cards */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 14px;
+  }
+  .grid.featured { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px 20px 18px;
+    text-decoration: none;
+    color: inherit;
+    transition: transform .15s ease, border-color .15s ease, background .15s ease;
+    position: relative;
+  }
+  .card:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent);
+    background: var(--bg-card-hover);
+  }
+  .card.is-featured { border-color: rgba(94, 194, 168, 0.3); }
+  .card-head {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin-bottom: 9px;
+  }
+  .card-emoji { font-size: 1.45rem; line-height: 1; }
+  .card-title {
+    font-size: 1.06rem;
+    font-weight: 650;
+    letter-spacing: -0.01em;
+  }
+  .card-arrow {
+    margin-left: auto;
+    color: var(--text-faint);
+    transition: color .15s, transform .15s;
+    font-size: 1rem;
+  }
+  .card:hover .card-arrow { color: var(--accent); transform: translate(2px, -2px); }
+  .card-desc {
+    color: var(--text-dim);
+    font-size: 0.92rem;
+    flex: 1;
+  }
+  .card-desc a { color: var(--accent); text-decoration: none; }
+  .card-foot {
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .uses {
+    font-family: var(--mono);
+    font-size: 0.74rem;
+    color: var(--accent);
+    background: var(--accent-soft);
+    border-radius: 6px;
+    padding: 3px 9px;
+  }
+  .repo-tag {
+    font-family: var(--mono);
+    font-size: 0.74rem;
+    color: var(--text-faint);
+    background: #1c2128;
+    border-radius: 6px;
+    padding: 3px 9px;
+  }
+
+  footer {
+    margin-top: 72px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--text-faint);
+    font-family: var(--mono);
+    font-size: 0.78rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 18px;
+    justify-content: space-between;
+  }
+  footer a { color: var(--text-faint); text-decoration: none; }
+  footer a:hover { color: var(--accent); }
+
+  @media (max-width: 560px) {
+    .wrap { padding: 48px 0 64px; }
+    h1 { font-size: 1.9rem; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>hansen zheng</h1>
+    <p class="tagline">building things.</p>
+    <div class="meta-row">
+      <span class="total-badge">📊 <!-- TOTAL_START -->57,011 total interactions · updated 2026-06-27<!-- TOTAL_END --></span>
+      <span>across tracked projects</span>
+      <a href="https://github.com/hansenvalueinvesting" target="_blank" rel="noopener">github ↗</a>
+    </div>
+  </header>
+
+  <!-- ============ FEATURED ============ -->
+  <section>
+    <h2 class="section-title">⭐ Featured</h2>
+    <div class="grid featured">
+
+      <a class="card is-featured" href="https://hansenvalueinvesting.github.io/newsfeed/" target="_blank" rel="noopener">
+        <div class="card-head">
+          <span class="card-emoji">📡</span>
+          <span class="card-title">newsfeed</span>
+          <span class="card-arrow">↗</span>
+        </div>
+        <p class="card-desc">live 24hr news aggregator.</p>
+        <div class="card-foot">
+          <span class="uses">📊 <!-- USES:newsfeed -->56,494 interactions<!-- /USES:newsfeed --></span>
+        </div>
+      </a>
+
+      <a class="card is-featured" href="https://hansenvalueinvesting.github.io/focus-timer/" target="_blank" rel="noopener">
+        <div class="card-head">
+          <span class="card-emoji">⏱️</span>
+          <span class="card-title">focus timer</span>
+          <span class="card-arrow">↗</span>
+        </div>
+        <p class="card-desc">session-based focus tracker with stats.</p>
+        <div class="card-foot">
+          <span class="uses">📊 <!-- USES:focus-timer -->224 interactions<!-- /USES:focus-timer --></span>
+        </div>
+      </a>
+
+      <a class="card is-featured" href="https://hansenvalueinvesting.github.io/plant-bug-interactive-map/" target="_blank" rel="noopener">
+        <div class="card-head">
+          <span class="card-emoji">🐞</span>
+          <span class="card-title">plant-bug map</span>
+          <span class="card-arrow">↗</span>
+        </div>
+        <p class="card-desc">arthropod × hostplant relationship visualizer. built for Earthwise Aware.</p>
+        <div class="card-foot">
+          <span class="uses">📊 <!-- USES:plant-bug-interactive-map -->297 interactions<!-- /USES:plant-bug-interactive-map --></span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ============ FINANCE & MARKETS ============ -->
+  <section>
+    <h2 class="section-title">Finance &amp; Markets</h2>
+    <div class="grid">
+
+      <a class="card" href="https://hansenvalueinvesting.github.io/newsfeed/" target="_blank" rel="noopener">
+        <div class="card-head">
+          <span class="card-emoji">📡</span>
+          <span class="card-title">newsfeed</span>
+          <span class="card-arrow">↗</span>
+        </div>
+        <p class="card-desc">live 24hr news aggregator.</p>
+      </a>
+
+      <a class="card" href="https://hansenvalueinvesting.github.io/charting/" target="_blank" rel="noopener">
+        <div class="card-head">
+          <span class="card-emoji">📈</span>
+          <span class="card-title">charting</span>
+          <span class="card-arrow">↗</span>
+        </div>
+        <p class="card-desc">financial charting tool.</p>
+      </a>
+
+      <a class="card" href="https://hansenvalueinvesting.github.io/qqq-hmm/" target="_blank" rel="noopener">
+        <div class="card-head">
+          <span class="card-emoji">📈</span>
+          <span class="card-title">qqq-hmm</span>
+          <span class="card-arrow">↗</span>
+        </div>
+        <p class="card-desc">QQQ hidden markov regime model.</p>
+      </a>
+
+      <a class="card" href="https://hansenvalueinvesting.github.io/time-series-momentum/" target="_blank" rel="noopener">
+        <div class="card-head">
+          <span class="card-emoji">📈</span>
+          <span class="card-title">time-series-momentum</span>
+          <span class="card-arrow">↗</span>
+        </div>
+        <p class="card-desc">time series momentum model.</p>
+      </a>
+
+      <a class="card" href="https://hansenvalueinvesting.github.io/post-earnings-announcement-drift/" target="_blank" rel="noopener">
+        <div class="card-head">
+          <span class="card-emoji">📈</span>
+          <span class="card-title">post-earnings-drift</span>
+          <span class="card-arrow">↗</span>
+        </div>
+        <p class="card-desc">post earnings announcement drift model.</p>
+      </a>
+
+      <a class="card" href="https://github.com/hansenvalueinvesting/hades" target="_blank" rel="noopener">
+        <div class="card-head">
+          <span class="card-emoji">😈</span>
+          <span class="card-title">hades</span>
+          <span class="card-arrow">↗</span>
+        </div>
+        <p class="card-desc">kronos based financial market tokenizer + inference model.</p>
+        <div class="card-foot">
+          <span class="repo-tag">source ↗</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ============ TOOLS & PRODUCTIVITY ============ -->
+  <section>
+    <h2 class="section-title">Tools &amp; Productivity</h2>
+    <div class="grid">
+
+      <a class="card" href="https://hansenvalueinvesting.github.io/focus-timer/" target="_blank" rel="noopener">
+        <div class="card-head">
+          <span class="card-emoji">⏱️</span>
+          <span class="card-title">focus timer</span>
+          <span class="card-arrow">↗</span>
+        </div>
+        <p class="card-desc">session-based focus tracker with stats.</p>
+      </a>
+
+      <a class="card" href="https://hansenvalueinvesting.github.io/brightmind" target="_blank" rel="noopener">
+        <div class="card-head">
+          <span class="card-emoji">🏸</span>
+          <span class="card-title">brightmind</span>
+          <span class="card-arrow">↗</span>
+        </div>
+        <p class="card-desc">tracker for squash players + coaches. log daily training, mental state, and recovery.</p>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ============ DATA & VISUALIZATION ============ -->
+  <section>
+    <h2 class="section-title">Data &amp; Visualization</h2>
+    <div class="grid">
+
+      <a class="card" href="https://hansenvalueinvesting.github.io/plant-bug-interactive-map/" target="_blank" rel="noopener">
+        <div class="card-head">
+          <span class="card-emoji">🐞</span>
+          <span class="card-title">plant-bug map</span>
+          <span class="card-arrow">↗</span>
+        </div>
+        <p class="card-desc">arthropod × hostplant relationship visualizer. built for Earthwise Aware.</p>
+      </a>
+
+      <a class="card" href="https://hansenvalueinvesting.github.io/buzzmap" target="_blank" rel="noopener">
+        <div class="card-head">
+          <span class="card-emoji">🐝</span>
+          <span class="card-title">buzzmap</span>
+          <span class="card-arrow">↗</span>
+        </div>
+        <p class="card-desc">pollinator mapping.</p>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ============ LEARNING ============ -->
+  <section>
+    <h2 class="section-title">Learning</h2>
+    <div class="grid">
+
+      <a class="card" href="https://hansenvalueinvesting.github.io/latin-3-2026-spring-exam-vocab/" target="_blank" rel="noopener">
+        <div class="card-head">
+          <span class="card-emoji">📖</span>
+          <span class="card-title">latin 3 vocab</span>
+          <span class="card-arrow">↗</span>
+        </div>
+        <p class="card-desc">latin 3 spring exam vocab flashcards.</p>
+      </a>
+
+      <a class="card" href="https://hansenvalueinvesting.github.io/hd4eng-2026-spring-exam-vocab/" target="_blank" rel="noopener">
+        <div class="card-head">
+          <span class="card-emoji">📖</span>
+          <span class="card-title">hd4eng vocab</span>
+          <span class="card-arrow">↗</span>
+        </div>
+        <p class="card-desc">HD 4th form english spring exam vocab flashcards.</p>
+      </a>
+
+    </div>
+  </section>
+
+  <footer>
+    <span>most projects are untracked. usage counts (📊) update automatically.</span>
+    <a href="https://github.com/hansenvalueinvesting" target="_blank" rel="noopener">@hansenvalueinvesting</a>
+  </footer>
+
+</div>
+</body>
+</html>
