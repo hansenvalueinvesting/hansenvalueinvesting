@@ -10,7 +10,8 @@ building things.
 (across tracked projects)
 
 **general**
-- ⏱️ focus timer [↗](https://hansenvalueinvesting.github.io/focus-timer/) | session-based focus tracker with stats. | 📊 <!-- USES:focus-timer -->247 interactions<!-- /USES:focus-timer --> 
+- ⏱️ focus-timer [↗](https://hansenvalueinvesting.github.io/focus-timer/) | session-based focus tracker with stats. | 📊 <!-- USES:focus-timer -->247 interactions<!-- /USES:focus-timer -->
+- 🎀 safe-to-put-on [↗](https://hansenvalueinvesting.github.io/safe-to-put-on/) | database + catalog for cosmetic product safety. 
 
 **economics + finance**
 - 📡 newsfeed [↗](https://hansenvalueinvesting.github.io/newsfeed/) | live 24hr news aggregator. | 📊 <!-- USES:newsfeed -->58,807 interactions<!-- /USES:newsfeed -->
