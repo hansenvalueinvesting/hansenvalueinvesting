@@ -6,7 +6,7 @@ building things.
 
 ## public projects
 
-📊 <!-- TOTAL_START -->59,799 total interactions · updated 2026-07-08<!-- TOTAL_END -->
+📊 <!-- TOTAL_START -->59,800 total interactions · updated 2026-07-08<!-- TOTAL_END -->
 (across tracked projects)
 
 **general**
@@ -21,7 +21,7 @@ building things.
 - 😈 hades [↗](https://github.com/hansenvalueinvesting/hades) | kronos based financial market tokenizer + inference model.
 
 **custom builds**
-- 🐞 plant-bug-interactive-map [↗](https://hansenvalueinvesting.github.io/plant-bug-interactive-map/) | arthropod × hostplant relationship visualizer. built for [Earthwise Aware](https://www.earthwiseaware.org/). | 📊 <!-- USES:plant-bug-interactive-map -->332 interactions<!-- /USES:plant-bug-interactive-map -->
+- 🐞 plant-bug-interactive-map [↗](https://hansenvalueinvesting.github.io/plant-bug-interactive-map/) | arthropod × hostplant relationship visualizer. built for [Earthwise Aware](https://www.earthwiseaware.org/). | 📊 <!-- USES:plant-bug-interactive-map -->333 interactions<!-- /USES:plant-bug-interactive-map -->
 - 🏸 brightmind [↗](https://hansenvalueinvesting.github.io/brightmind) | tracker for squash players + coaches. log  daily training, mental state, and recovery.
 - 🐝 buzzmap [↗](https://hansenvalueinvesting.github.io/buzzmap) | pollinator mapping.
 - 🎀 safe-to-put-on [↗](https://hansenvalueinvesting.github.io/safe-to-put-on/) | database + catalog for cosmetic product safety. 
