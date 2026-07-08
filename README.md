@@ -6,7 +6,7 @@ building things.
 
 ## public projects
 
-📊 <!-- TOTAL_START -->59,646 total interactions · updated 2026-07-07<!-- TOTAL_END -->
+📊 <!-- TOTAL_START -->59,666 total interactions · updated 2026-07-08<!-- TOTAL_END -->
 (across tracked projects)
 
 **general**
@@ -14,7 +14,7 @@ building things.
 - 🎀 safe-to-put-on [↗](https://hansenvalueinvesting.github.io/safe-to-put-on/) | database + catalog for cosmetic product safety. 
 
 **economics + finance**
-- 📡 newsfeed [↗](https://hansenvalueinvesting.github.io/newsfeed/) | live 24hr news aggregator. | 📊 <!-- USES:newsfeed -->59,071 interactions<!-- /USES:newsfeed -->
+- 📡 newsfeed [↗](https://hansenvalueinvesting.github.io/newsfeed/) | live 24hr news aggregator. | 📊 <!-- USES:newsfeed -->59,091 interactions<!-- /USES:newsfeed -->
 - 📈 charting [↗](https://hansenvalueinvesting.github.io/charting/) | financial charting tool.
 - 📈 qqq-hmm [↗](https://hansenvalueinvesting.github.io/qqq-hmm/) | QQQ hidden markov regime model.
 - 📈 time-series-momentum [↗](https://hansenvalueinvesting.github.io/time-series-momentum/) | time series momentum model.
