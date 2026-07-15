@@ -8,8 +8,8 @@ building things & vibecoding.
 
 **general**
 - ⏱️ focus-timer [↗](https://hansenvalueinvesting.github.io/focus-timer/) | session-based focus tracker with stats.
-- ☕ overclock [↗](https://hansenvalueinvesting.github.io/overclock/) | caffeine tracker, body energy engineering. 
-
+- ☕ overclock [↗](https://hansenvalueinvesting.github.io/overclock/) | caffeine tracker, body energy engineering.
+- 💪 tally [↗](https://hansenvalueinvesting.github.io/tally/) | gym and workout tracker. 
 **economics + finance**
 - 📡 newsfeed [↗](https://hansenvalueinvesting.github.io/newsfeed/) | live 24hr news aggregator. 
 - 📈 charting [↗](https://hansenvalueinvesting.github.io/charting/) | financial charting tool.
