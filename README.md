@@ -10,6 +10,7 @@ building things & vibecoding.
 - ⏱️ focus-timer [↗](https://hansenvalueinvesting.github.io/focus-timer/) | session-based focus tracker with stats.
 - ☕ overclock [↗](https://hansenvalueinvesting.github.io/overclock/) | caffeine tracker, body energy engineering.
 - 💪 tally [↗](https://hansenvalueinvesting.github.io/tally/) | gym and workout tracker.
+- 📖 blitz [↗](https://hansenvalueinvesting.github.io/blitz/) | SAT prep scrolling. 
 
 **economics + finance**
 - 📡 newsfeed [↗](https://hansenvalueinvesting.github.io/newsfeed/) | live 24hr news aggregator. 
