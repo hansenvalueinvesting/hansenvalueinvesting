@@ -4,7 +4,7 @@ building things & vibecoding.
 
 ---
 
-## projects
+## public projects
 
 **general**
 - ⏱️ focus-timer [↗](https://hansenvalueinvesting.github.io/focus-timer/) | session-based focus tracker with stats.
