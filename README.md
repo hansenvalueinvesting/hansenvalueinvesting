@@ -8,7 +8,7 @@ building things & vibecoding.
 <summary><h2>work</h2></summary>
 
 - 🐞 plant-bug-interactive-map [↗](https://hansenvalueinvesting.github.io/plant-bug-interactive-map/) | arthropod × hostplant relationship visualizer. built for [Earthwise Aware](https://www.earthwiseaware.org/). 
-- 🏸 brightmind [↗](https://hansenvalueinvesting.github.io/brightmind) | tracker for squash players + coaches. log daily training, mental state, and recovery.
+- 🏸 brightmind [↗](https://hansenvalueinvesting.github.io/brightmind) | app for squash players + coaches. log daily training, mental state, and recovery.
 - 🌿 tnc-hk-geiwai-project | Lut Chau gei wai monitoring data analysis + review. built for The Nature Conservancy Hong Kong.
 - 🦆 tnc-hk-wetland-nbs-monitoring | smart gei wai nature-based solutions monitoring dataset (water quality, birds, fish). built for The Nature Conservancy Hong Kong.
 
