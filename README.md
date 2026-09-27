@@ -45,4 +45,4 @@ building things & vibecoding.
 - 🏛️ ap-latin-summer-vocab [↗](https://hansenvalueinvesting.github.io/ap-latin-summer-vocab/) | AP Latin vocab flashcards (1,089 terms).
 - 🏛️ latin-3-2026-spring-exam-vocab [↗](https://hansenvalueinvesting.github.io/latin-3-2026-spring-exam-vocab/) | Latin 3 spring exam vocab.
 - 📚 hd4eng-2026-spring-exam-vocab [↗](https://hansenvalueinvesting.github.io/hd4eng-2026-spring-exam-vocab/) | 4th form English spring exam vocab.
-- - 📞 hansemma-2026-summer | long-distance countdown and call log.
+- hansemma-2026-summer
