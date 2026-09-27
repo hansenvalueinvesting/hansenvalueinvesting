@@ -4,16 +4,18 @@ building things & vibecoding.
 
 ---
 
-## work
+<details open>
+<summary><h2>work</h2></summary>
 
 - 🐞 plant-bug-interactive-map [↗](https://hansenvalueinvesting.github.io/plant-bug-interactive-map/) | arthropod × hostplant relationship visualizer. built for [Earthwise Aware](https://www.earthwiseaware.org/). 
 - 🏸 brightmind [↗](https://hansenvalueinvesting.github.io/brightmind) | tracker for squash players + coaches. log daily training, mental state, and recovery.
 - 🌿 tnc-hk-geiwai-project | Lut Chau gei wai monitoring data analysis + review. built for The Nature Conservancy Hong Kong.
 - 🦆 tnc-hk-wetland-nbs-monitoring | smart gei wai nature-based solutions monitoring dataset (water quality, birds, fish). built for The Nature Conservancy Hong Kong.
 
----
+</details>
 
-## personal work
+<details>
+<summary><h2>personal work</h2></summary>
 
 - 📈 time-series-momentum [↗](https://hansenvalueinvesting.github.io/time-series-momentum/) | time series momentum model.
 - 📈 post-earnings-announcement-drift [↗](https://hansenvalueinvesting.github.io/post-earnings-announcement-drift/) | post earnings announcement drift model.
@@ -25,9 +27,10 @@ building things & vibecoding.
 - 🛡️ polyinsurance [↗](https://hansenvalueinvesting.github.io/polyinsurance/) | polymarket scanner + settlement data for near-certain contracts.
 - 🐝 buzzmap [↗](https://hansenvalueinvesting.github.io/buzzmap) | mapping project exploring the impact of urban activity on pollinators.
 
----
+</details>
 
-## personal tools
+<details>
+<summary><h2>personal tools</h2></summary>
 
 - ⏱️ focus-timer [↗](https://hansenvalueinvesting.github.io/focus-timer/) | focus tracker with stats.
 - 💪 tally [↗](https://hansenvalueinvesting.github.io/tally/) | gym and workout tracker.
@@ -37,12 +40,16 @@ building things & vibecoding.
 - 📈 charting [↗](https://hansenvalueinvesting.github.io/charting/) | financial charting tool.
 - ⚡ blitz [↗](https://hansenvalueinvesting.github.io/blitz/) | SAT practice gamified scroll feed.
 
----
+</details>
 
-## other
+<details>
+<summary><h2>other</h2></summary>
+
 - 🫧 tradingview-delta-bubbles [↗](https://github.com/hansenvalueinvesting/tradingview-delta-bubbles) | tradingview delta bubbles indicator (pine script).
 - 📊 tradingview-volume-profile [↗](https://github.com/hansenvalueinvesting/tradingview-volume-profile) | tradingview volume profile indicator (pine script).
 - 🏛️ ap-latin-summer-vocab [↗](https://hansenvalueinvesting.github.io/ap-latin-summer-vocab/) | AP Latin vocab flashcards (1,089 terms).
 - 🏛️ latin-3-2026-spring-exam-vocab [↗](https://hansenvalueinvesting.github.io/latin-3-2026-spring-exam-vocab/) | Latin 3 spring exam vocab.
 - 📚 hd4eng-2026-spring-exam-vocab [↗](https://hansenvalueinvesting.github.io/hd4eng-2026-spring-exam-vocab/) | 4th form English spring exam vocab.
 - hansemma-2026-summer
+
+</details>
