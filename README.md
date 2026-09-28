@@ -21,7 +21,7 @@ building things & vibecoding.
 - 📈 post-earnings-announcement-drift [↗](https://hansenvalueinvesting.github.io/post-earnings-announcement-drift/) | post earnings announcement drift model.
 - 📈 qqq-hmm [↗](https://hansenvalueinvesting.github.io/qqq-hmm/) | QQQ hidden markov regime model.
 - 🚀 breakout-scanner [↗](https://hansenvalueinvesting.github.io/breakout-scanner/) | US stocks lateral breakout scanner.
-- - 📈 momentum [↗](https://hansenvalueinvesting.github.io/momentum/) | time-series + cross-sectional momentum modelling.
+- 📈 momentum [↗](https://hansenvalueinvesting.github.io/momentum/) | time-series + cross-sectional momentum modelling.
 - 😈 hades [↗](https://github.com/hansenvalueinvesting/hades) | kronos based financial market tokenizer + inference model.
 - 🌦️ weather-model [↗](https://hansenvalueinvesting.github.io/weather-model/) | multi-model forecast blend for polymarket temperature markets.
 - 🛡️ polyinsurance [↗](https://hansenvalueinvesting.github.io/polyinsurance/) | polymarket scanner + settlement data for near-certain contracts.
