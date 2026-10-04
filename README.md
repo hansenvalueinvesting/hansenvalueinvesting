@@ -14,6 +14,13 @@ building things & vibecoding.
 
 </details>
 
+<details open>
+<summary><h2>research</h2></summary>
+
+- ancient-loans-database [↗](https://hansenvalueinvesting.github.io/ancient-loans-database) | open working database for all loans in the ancient world. 
+
+</details>
+
 <details>
 <summary><h2>personal work</h2></summary>
 
